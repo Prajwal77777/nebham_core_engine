@@ -16,7 +16,6 @@ class CreateNebhamCoreAccounts < ActiveRecord::Migration[7.1]
       t.string :privacy_policy
       t.string :terms_service
 
-      t.jsonb :metadata, default: {}
       
       t.timestamps
     end
